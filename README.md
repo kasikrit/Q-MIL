@@ -33,7 +33,7 @@ Ensure to install the correct PyTorch wheels for your specific CUDA version (e.g
 
 ```bash
 pip install tensorflow==2.11.0
-pip install torch==1.13.0 torchvision torchaudio --extra-index-url [https://download.pytorch.org/whl/cu117](https://download.pytorch.org/whl/cu117)
+pip install torch==1.13.0 torchvision torchaudio
 pip install pandas numpy scikit-learn matplotlib seaborn yacs tqdm opencv-python Pillow
 ```
 
