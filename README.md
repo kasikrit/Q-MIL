@@ -2,7 +2,7 @@
 
 This repository contains the source code for the hybrid AI framework that integrates quantum state embedding, Hamiltonian attention, and von Neumann entropy-driven double-verification triage for the clinical screening of Iron Deficiency Anemia (IDA) and Thalassemia (THL).
 
-**Paper Title:** Quantum-Inspired Multiple Instance Learning (Q-MIL) for Epistemic Triage in Hematopathology
+**Paper Title:** Quantum-Inspired Entanglement and Uncertainty Quantification for Strict Double-Verification Triage in Clinical Hematopathology
 
 **Journal**: Scientific Reports (Submitted)
 
