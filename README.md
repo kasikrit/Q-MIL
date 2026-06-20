@@ -39,7 +39,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn yacs tqdm opencv-python
 
 ## Available Dataset
 
-The datasets generated and/or analyzed during the current study are not publicly available as they are being utilized for ongoing and future research, but are available from the corresponding author on reasonable request. However, a related dataset with similar attributes is publicly accessible at [https://github.com/kasikrit/IDA-THL-Classification/](https://github.com/kasikrit/IDA-THL-Classification/).
+<!--The datasets generated and/or analyzed during the current study is not publicly available as they are being utilized for ongoing and future research, but are available from the corresponding author on reasonable request. However, a related dataset with similar attributes is publicly accessible at [https://github.com/kasikrit/IDA-THL-Classification/](https://github.com/kasikrit/IDA-THL-Classification/). -->
+The datasets generated and/or analyzed during the current study is not publicly available at [doi.org/10.6084/m9.figshare.32243310](https://doi.org/10.6084/m9.figshare.32243310)
 
 ## Q-MIL Pipeline Execution
 
