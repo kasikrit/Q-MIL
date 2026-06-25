@@ -40,7 +40,20 @@ pip install pandas numpy scikit-learn matplotlib seaborn yacs tqdm opencv-python
 ## Available Dataset
 
 <!--The datasets generated and/or analyzed during the current study is not publicly available as they are being utilized for ongoing and future research, but are available from the corresponding author on reasonable request. However, a related dataset with similar attributes is publicly accessible at [https://github.com/kasikrit/IDA-THL-Classification/](https://github.com/kasikrit/IDA-THL-Classification/). -->
-The datasets generated and/or analyzed during the current study is not publicly available at [doi.org/10.6084/m9.figshare.32243310](https://doi.org/10.6084/m9.figshare.32243310)
+
+The datasets generated and/or analyzed during the current study is publicly available at [IDA-THL-Segmented-Cells-02-2026.zip](https://drive.google.com/file/d/1KngK2-LlFnbZLm-R34gK1aNkKu4FGmEw/view?usp=sharing).
+
+⠀**Data Structure**
+The dataset composed of 258 unique patients and hierarchically organized within the root directory IDA-THL-Segmented-Cells to facilitate patient-level Multiple Instance Learning (MIL). The structure follows a strict Class -> Patient -> Slide -> Cell schema:
+* 0/ **and** 1/ **(Class Labels):** The top-level directories represent the binary classification ground truth at the patient level.
+  * 0: Iron Deficiency Anemia (IDA) cases.
+  * 1: Thalassemia (THL) cases.
+* [Patient_ID]/ **(e.g.,** IDA-001**,** THL-001**):** Distinct folders for each unique patient, ensuring that cross-validation splits can maintain strict mutual exclusivity at the patient level.
+* cells/**:** A sub-directory containing the extracted cellular data for that specific patient.
+* [Source_Image_ID]/ **(e.g.,** DSC10132**):** Folders corresponding to the specific peripheral blood smear slide or original microscopic field of view from which the cells were cropped.
+* **Segmented Cell Images (**.png**):** The individual red blood cell (RBC) patches. The file naming convention is strictly formatted as [Patient_ID]-[Source_Image_ID]-[Cell_Index].png (e.g., IDA-001-DSC10132-001.png), allowing for complete traceability back to the original slide.
+
+⠀**MD5 (IDA-THL-Segmented-Cells-02-2026.zip) = d2f896c59984890baaeb5e21253061e0**
 
 ## Q-MIL Pipeline Execution
 
